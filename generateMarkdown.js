@@ -6,7 +6,7 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Table of Contents
-  // Links
+  // TODO: How do I do links?
  
   ## Installation
   ${data.installations}

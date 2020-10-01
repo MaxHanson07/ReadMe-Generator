@@ -1,21 +1,20 @@
 var inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
-
-const writeFileAsync = util.promisify(fs.writeFile);
+const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
 const questions = [
-
+// TODO: Whats this for?
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    console.log("success");
 }
 
 // function to initialize program
 function init() {
-
+    // TODO: Whats this for?
 }
 
 // function call to initialize program
@@ -76,11 +75,6 @@ init();
             }
         ])
         .then(function (response) {
-
-            const newHtml = generateReadme(response.name, response.location, response.bio, response.linkedIn, response.gitHub)
-            console.log(newHtml);
-
-            writeFileAsync("person.html", newHtml).then(function () {
-                console.log("success")
-            })
+            const newReadme = generateMarkdown(response);
+            writeToFile("RADME.md", newReadme);
         })
