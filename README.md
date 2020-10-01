@@ -18,4 +18,4 @@ Asks users info about their project to generate them a professional ReadMe file 
 
 ## Tests
 
-## Questopms
+## Questions
