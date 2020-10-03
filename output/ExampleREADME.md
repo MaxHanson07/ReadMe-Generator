@@ -1,7 +1,7 @@
-# ggg
+# ReadMe Generator
 
   ## Description
-  ggg
+  Generates ReadMes for developers' projects
   
   ## Table of Contents
   [Installation](#installation)
@@ -12,27 +12,27 @@
   [Contact Creator](contact-creator)
  
   ### Installation
-  g
+  Inquirer, node
   
   ### Usage
-  g
+  Download necessary installations and run in console, then check for created output file
   
   ### License
-  ISC
+  MIT
   
   ### Contributing
-  g
+  Don't
   
   ### Tests
-  g
+  Results
   
   ### Contact Creator
 
   #### GitHub Username
-  [See GitHub](https://github.com/g)
+  [See GitHub](https://github.com/maxhanson07)
 
   #### Email Address
-  g
+  mthanson2@gmail.com
 
   #### How to reach me
-  g
+  Shoot me an email
